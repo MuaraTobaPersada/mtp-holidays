@@ -1,5 +1,5 @@
 import React from 'react';
-import videoSource from '../assets/vidbackground.mp4';
+import videoSource from '../assets/vid-01.mp4';
 
 const BackgroundVideo = () => {
     return (
@@ -12,12 +12,12 @@ const BackgroundVideo = () => {
                 muted
                 playsInline
             />
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70"></div>
             <div className="relative z-10 flex items-center h-full px-4">
-                <div className="max-w-lg text-left">
-                    <h1 className="text-4xl font-bold text-white">Muara Toba Persada</h1>
-                    <p className="mt-4 text-white">
-                        Kami tuangkan semua kegiatan foto, video, dari semua kegiatan & acara berlibur disini, cobalah sedikit berpetualang lalu download bagian penting kalian. 
+                <div className="max-w-lg text-left md:ml-8 lg:ml-16">
+                    <h1 className="text-4xl lg:text-4xl font-bold text-[#0A51B2]">Muara Toba Persada Holiday.</h1>
+                    <p className="mt-4 text-white text-base md:text-lg lg:text-xl">
+                        Momen bersenang - senang melepas penat, mencari kebahagiaan bersama - sama, berlibur dengan seluruh jajaran karyawan dan manajemen pengelola.
                     </p>
                 </div>
             </div>
