@@ -12,7 +12,7 @@ const BackgroundVideo = () => {
                 muted
                 playsInline
             />
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-80"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
             <div className="relative z-10 flex items-center h-full px-4">
                 <div className="max-w-lg text-left md:ml-8 lg:ml-16">
                     <h1 className="text-4xl lg:text-4xl font-bold text-[#0A51B2]">Muara Toba Persada Holiday.</h1>
